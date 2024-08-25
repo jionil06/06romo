@@ -1,0 +1,33 @@
+.p1{
+    width: 290px;
+    height: 130px;
+    background-color: rgb(250, 250, 250);
+    position: absolute;
+    color: rgb(1, 10, 9);
+    font-size: 2vw;
+    text-align: left;
+    top:50vh;
+    margin-left: 20vw;
+    border-radius: 59px;
+    transform: left(0);
+    transition: 0.5s;
+    z-index: 1;
+    left: 0px;
+    animation: dh 4.2s cubic-bezier(.88,.18,.99,-0.49);
+}
+@keyframes dh {
+    from {
+        transform: translateX(-1000px);
+    }
+}
+.p2{
+    right: 0;
+    animation: dh1 4.2s cubic-bezier(.88,.18,.99,-0.49);
+}
+@keyframes dh1 {
+    from {
+        transform: translateX(-10000px);
+    }
+}
+
+
